@@ -67,14 +67,23 @@ library(tidyverse)
     $$
     \int\limits_1^\infty \frac{x^2}{\sqrt{2\pi}} e^{-x^2/2} dx
     $$
-    using importance sampling.
-    
-    **Hint:** You can use the better of the two importance functions you defined from problem 2.
+    using importance sampling with the two importance sampling functions you chose in Problem 2 ($\phi_1$ and $\phi_2$). Obtain an estimate of the variance for each and compare.
     
     ```{r}
     ## number of samples to use
-    m <- 1000
+    m <- 100000
     
     ## estimate the integral using importance sampling
+    ## phi 1
+    
+    
+    ## phi 2
+    
+    
+    ## estimates
+    ## true value for theta is approx 0.4006
+    
+    
+    ## compare variances
     
     ```

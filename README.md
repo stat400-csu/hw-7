@@ -31,9 +31,7 @@ Be sure to `set.seed(400)` at the beginning of your homework.
     $$
     \int\limits_1^\infty \frac{x^2}{\sqrt{2\pi}} e^{-x^2/2} dx
     $$
-    using importance sampling.
-    
-    **Hint:** You can use the better of the two importance functions you defined from problem 2.
+    using importance sampling with the two importance sampling functions you chose in Problem 2 ($\phi_1$ and $\phi_2$). Obtain an estimate of the variance for each and compare.
     
 
 
